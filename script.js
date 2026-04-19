@@ -58,7 +58,7 @@ function particleLines() {
 
       if (dist < 120) {
         ctx.strokeStyle = `hsla(${hue}, 100%, 60%, 0.2)`;
-        ctx.lineWidth   = 0.8;
+        ctx.lineWidth   = 1.5;
         ctx.beginPath();
         ctx.moveTo(particlesArray[a].x, particlesArray[a].y);
         ctx.lineTo(particlesArray[b].x, particlesArray[b].y);
