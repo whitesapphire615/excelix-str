@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excelix asw</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="particles"></canvas>
+    <!-- navbar -->
+    <nav>
+        <div class="nav-container">
+            <div class="name-profile">
+                <img src="assets/profile.jpeg" alt="Profile Picture">
+                <p>Excelix</p>
+            </div>
+            <div class="nav-links">
+                <a href="#" onclick="go('home')">Home</a>
+                <a href="#" onclick="go('about')">About</a>
+                <a href="#" onclick="go('hobbies')">Hobbies</a>
+                <a href="#" onclick="go('projects')">Projects</a>
+                <a href="#" onclick="go('contact')">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- contents -->
+    <div class="container">
+        <div class="content">
+            <div class="home part" id="home">
+                <h1 class="hi">Hi!,I'm <span>Excelix</span></h1>
+                <p class="desc">I'm just a small developer with experience in web development and design.</p>
+                <p class="scroll-sign">SCROLL</p>
+            </div>
+
+            <div class="about section part" id="about">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <img src="assets/profile.jpeg" alt="About Image">
+                    <p class="desc">
+                        I am a Python developer with strong hands-on experience in building desktop applications, working with libraries such as Tkinter, CustomTkinter, OpenCV, and Pillow. I am comfortable developing structured applications, handling data, and creating functional, user-friendly interfaces.
+                        <br>
+                        <br>
+                        I also have experience in web development using Flask, including building basic backend systems and APIs. In addition, I have a growing interest in game development, with practical experience using Pygame and currently exploring the Godot Engine.
+                        <br>
+                        <br>
+                        Beyond programming, I have a passion for digital art and a good understanding of 3D design using Blender. I enjoy combining creativity with technical skills to create visually appealing and functional projects.
+                    </p>
+                </div>
+            </div>
+
+            <div class="hobbies section part" id="hobbies">
+                <h2>My Hobbies</h2>
+                <p>Here are some of my hobbies:</p>
+                <div class="hobby-cards">
+                    <div class="card">
+                        <p class="label">3D Modeling</p>
+                        <img src="assets\hobbies\3dmodelling.png" alt="3D Modeling">
+                        <p class="description">I enjoy creating 3D models using software like Blender. I have created various models, including characters, environments, and props.</p>
+                    </div>
+                    <div class="card">
+                        <p class="label">Coding</p>
+                        <img src="assets\hobbies\coding.png" alt="Coding">
+                        <p class="description">The language I usually use to create programs is Python. With Python, I can create several projects with libraries and frameworks, such as Flask, Pillow, OpenCv, and others. but that doesn't mean I don't want to learn other languages, now I'm still learning Javascript and languages for building websites</p>
+                    </div>
+                    <div class="card">
+                        <p class="label">Digital Art</p>
+                        <img src="assets\hobbies\digitalart.png" alt="Digital Art">
+                        <p class="description">I like drawing. In the past, I often drew with pencils and pens, but with the advancement of technology, I also often try digital drawing with existing applications such as IbisPaintX and FlipaClip for animation sometimes, cuz it free...</p>
+                    </div>
+                    <div class="card">
+                        <p class="label">Video Editing</p>
+                        <img src="assets\hobbies\videoediting.png" alt="Video Editing">
+                        <p class="description">I sometimes like to edit videos when I have an idea, I usually use CapCut, with CapCut I can edit several short videos for content material, maybe even a music video.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects section part" id ="projects">
+                <h2>My Projects</h2>
+                <p>Here are some of the projects, <span>there may be some projects that i don't continue or unfinished</span> :</p>
+                <div class="project-cards">
+                    <div class="card">
+                        <p class="label">Cashier App</p>
+                        <div class="description">A python tkinter app for managing cash transactions and CRUD system. and using customtkinter for UI</div>
+                    </div>
+                    <div class="card">
+                        <p class="label">2D Game Development</p>
+                        <img src="assets\projects\gamedev.jpeg" alt="2D Game Development">
+                        <div class="description">A simple 2D game built with Pygame.</div>
+                    </div>
+                    <div class="card">
+                        <p class="label">True Disaster Animation</p>
+                        <video controls>
+                            <source src="assets\projects\true disaster.mp4">
+                        </video>
+                        <div class="description">This is an animation project I created using Blender. the style animation isn't good at all because i made this when i new in Blender.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact section part" id ="contact">
+                <h2>My Contacts</h2>
+                <p>If you have any questions, feel free to reach out!</p>
+                <div class="contact-content">
+                    <div class="contact-links">
+                        <a href="https://discordapp.com/users/1033740687667122246" class="contact-link" target="_blank"><i class="fab fa-discord"></i></a>
+                        <a href="https://www.reddit.com/user/Excelix_" class="contact-link" target="_blank"><i class="fab fa-reddit"></i></a>
+                        <a href="https://github.com/whitesapphire615" class="contact-link" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://instagram.com/excelix_", class="contact-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/ExcelixStr", class="contact-link" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/@excelix-str" class="contact-link" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="quote">
+                    <p>“Creating technology that blends logic and creativity.”</p>
+                </div>
+                <div class="badges-container">
+                    <h3>My Friends</h3>
+                    <div class="badges">
+                        <a href="https://finiteti.me" target="_blank" class="badge"><img src="https://finiteti.me/badge.png" title="FiniteTi.me" alt="finiteti.me button"></a>
+                        
+                    </div>
+                    <h3>My badge link</h3>
+                    <textarea class="badge-code" id="badge-code" readonly><a href="#"><img src="https://mydomain/assets/badge.gif" title="Excelix" alt="ExcelixBadge button"></a></textarea>
+                    <a href="#" onclick="go('home')" target="_blank" class='my-badge badge'><img src="assets/badge.gif" alt="ExcelixBadge button" title="Excelix"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
