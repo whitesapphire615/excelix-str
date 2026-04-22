@@ -1,0 +1,22 @@
+[
+    {
+        "name":"3D Modeling",
+        "file":"3dmodelling.png",
+        "description":"I enjoy creating 3D models using software like Blender. I have created various models, including characters, environments, and props."
+    },
+    {
+        "name":"Coding",
+        "file":"coding.png",
+        "description":"The language I usually use to create programs is Python. With Python, I can create several projects with libraries and frameworks, such as Flask, Pillow, OpenCv, and others. but that doesn't mean I don't want to learn other languages, now I'm still learning Javascript and languages for building websites"
+    },
+    {
+        "name":"Digital Art",
+        "file":"digitalart.png",
+        "description":"I like drawing. In the past, I often drew with pencils and pens, but with the advancement of technology, I also often try digital drawing with existing applications such as IbisPaintX and FlipaClip for animation sometimes, cuz it free..."
+    },
+    {
+        "name":"Video Editing",
+        "file":"videoediting.png",
+        "description":"I sometimes like to edit videos when I have an idea, I usually use CapCut, with CapCut I can edit several short videos for content material, maybe even a music video."
+    }
+]

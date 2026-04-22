@@ -1,0 +1,26 @@
+[
+    {
+        "name":"Cashier App",
+        "file":null,
+        "description":"A python tkinter app for managing cash transactions and CRUD system. and using customtkinter for UI",
+        "file_type":"image"
+    },
+    {
+        "name":"Online Store Website",
+        "file":null,
+        "description":"A simple website built with HTML, CSS, PHP, and JavaScript. for managing an online store.",
+        "file_type":"image"
+    },
+    {
+        "name":"2D Game Development",
+        "file":"gamedev.jpeg",
+        "description":"A simple 2D game built with Pygame.",
+        "file_type":"image"
+    },
+    {
+        "name": "True Disaster Animation",
+        "file": "true disaster.mp4",
+        "description": "This is an animation project I created using Blender. the style animation isn't good at all because i made this when i new in Blender.",
+        "file_type":"video"
+    }
+]
